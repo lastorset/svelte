@@ -2,8 +2,8 @@
 	// `value` is updated whenever the prop value changes...
 	export let value;
 
-	// ...but `valueAtStart` is fixed upon initialisation
-	const valueAtStart = value;
+	// ...but `color` is fixed upon initialisation
+	const color = value;
 </script>
 
-<p>{valueAtStart} / {value}</p>
+<p style="background-color: {color}">{color} / {value}</p>
